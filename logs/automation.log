@@ -1,0 +1,210 @@
+2026-04-29 22:11:19.255 [main] INFO  com.automationframework.utils.ExtentReportManager - Test Suite Started: Smoke Tests - Chrome
+2026-04-29 22:11:19.840 [main] INFO  com.automationframework.utils.ConfigReader - Configuration file loaded successfully: config.properties
+2026-04-29 22:11:19.840 [main] INFO  com.automationframework.utils.ExtentReportManager - Extent Report initialized
+2026-04-29 22:11:19.940 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testSuccessfulLogin
+2026-04-29 22:11:19.974 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testSuccessfulLogin
+2026-04-29 22:11:20.045 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:11:20.047 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Entering username: student
+2026-04-29 22:11:20.061 [TestNG-test-Smoke Tests - Chrome-1] ERROR com.automationframework.utils.ExtentReportManager - Test FAILED: testSuccessfulLogin
+2026-04-29 22:11:20.064 [TestNG-test-Smoke Tests - Chrome-1] ERROR com.automationframework.utils.ExtentReportManager - Failure reason: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+2026-04-29 22:11:20.078 [TestNG-test-Smoke Tests - Chrome-1] WARN  com.automationframework.utils.ScreenshotUtil - Cannot capture screenshot — WebDriver is null
+2026-04-29 22:11:20.097 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:11:20.100 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:20.101 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:11:20.102 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:20.119 [main] INFO  com.automationframework.utils.ExtentReportManager - Test Suite Finished: Smoke Tests - Chrome
+2026-04-29 22:11:20.918 [main] INFO  com.automationframework.utils.ExtentReportManager - Extent Report saved to: reports/AutomationReport.html
+2026-04-29 22:11:20.992 [main] INFO  com.automationframework.utils.ExtentReportManager - Test Suite Started: Regression Tests - Chrome
+2026-04-29 22:11:20.995 [main] INFO  com.automationframework.utils.ExtentReportManager - Extent Report initialized
+2026-04-29 22:11:21.019 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:21.019 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:21.021 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Setting up test - Browser: chrome
+2026-04-29 22:11:21.019 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:21.021 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - Setting up test - Browser: chrome
+2026-04-29 22:11:21.022 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:21.022 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Setting up test - Browser: chrome
+2026-04-29 22:11:21.022 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:21.023 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:21.022 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - Initializing WebDriver for browser: chrome
+2026-04-29 22:11:21.023 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.DriverFactory - Initializing WebDriver for browser: chrome
+2026-04-29 22:11:21.023 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.DriverFactory - Initializing WebDriver for browser: chrome
+2026-04-29 22:11:35.963 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - WebDriver initialized successfully for browser: chrome
+2026-04-29 22:11:35.969 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.DriverFactory - WebDriver initialized successfully for browser: chrome
+2026-04-29 22:11:36.064 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.DriverFactory - WebDriver initialized successfully for browser: chrome
+2026-04-29 22:11:41.474 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-04-29 22:11:41.493 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-04-29 22:11:41.493 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testLoginWithInvalidPassword
+2026-04-29 22:11:41.500 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testLoginWithInvalidPassword
+2026-04-29 22:11:41.504 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:11:41.505 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Entering username: student
+2026-04-29 22:11:41.508 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testLoginWithInvalidUsername
+2026-04-29 22:11:41.533 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testLoginWithInvalidUsername
+2026-04-29 22:11:41.535 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-04-29 22:11:41.537 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:11:41.538 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - Entering username: invaliduser
+2026-04-29 22:11:41.546 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testLoginWithEmptyCredentials
+2026-04-29 22:11:41.552 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testLoginWithEmptyCredentials
+2026-04-29 22:11:41.555 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:11:41.556 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Entering username: 
+2026-04-29 22:11:42.437 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Entering password
+2026-04-29 22:11:42.569 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Entering password
+2026-04-29 22:11:42.569 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - Entering password
+2026-04-29 22:11:43.079 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Clicking login button
+2026-04-29 22:11:43.200 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Clicking login button
+2026-04-29 22:11:43.341 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - Clicking login button
+2026-04-29 22:11:43.804 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Getting error message text
+2026-04-29 22:11:43.823 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.tests.LoginTest - TEST PASSED: testLoginWithEmptyCredentials
+2026-04-29 22:11:43.824 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.ExtentReportManager - Test PASSED: testLoginWithEmptyCredentials
+2026-04-29 22:11:43.837 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:11:43.838 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.DriverFactory - Quitting WebDriver for current thread
+2026-04-29 22:11:43.906 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - Getting error message text
+2026-04-29 22:11:44.062 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.tests.LoginTest - TEST PASSED: testLoginWithInvalidPassword
+2026-04-29 22:11:44.066 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.ExtentReportManager - Test PASSED: testLoginWithInvalidPassword
+2026-04-29 22:11:44.072 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:11:44.073 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - Quitting WebDriver for current thread
+2026-04-29 22:11:44.208 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.tests.LoginTest - TEST PASSED: testLoginWithInvalidUsername
+2026-04-29 22:11:44.220 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.ExtentReportManager - Test PASSED: testLoginWithInvalidUsername
+2026-04-29 22:11:44.238 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:11:44.241 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.DriverFactory - Quitting WebDriver for current thread
+2026-04-29 22:11:44.846 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:44.847 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:11:44.847 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:44.854 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:44.855 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Setting up test - Browser: chrome
+2026-04-29 22:11:44.856 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:44.856 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - Initializing WebDriver for browser: chrome
+2026-04-29 22:11:45.163 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:45.164 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:11:45.164 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:45.185 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:45.185 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:11:45.186 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:46.856 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - WebDriver initialized successfully for browser: chrome
+2026-04-29 22:11:50.655 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-04-29 22:11:50.662 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testSuccessfulLogin
+2026-04-29 22:11:50.663 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testSuccessfulLogin
+2026-04-29 22:11:50.665 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:11:50.665 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Entering username: student
+2026-04-29 22:11:51.086 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Entering password
+2026-04-29 22:11:51.392 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Clicking login button
+2026-04-29 22:11:52.152 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Login successful - URL contains 'logged-in'
+2026-04-29 22:11:52.153 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Getting success page title
+2026-04-29 22:11:52.292 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.tests.LoginTest - TEST PASSED: testSuccessfulLogin
+2026-04-29 22:11:52.292 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.ExtentReportManager - Test PASSED: testSuccessfulLogin
+2026-04-29 22:11:52.296 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:11:52.298 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - Quitting WebDriver for current thread
+2026-04-29 22:11:53.148 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:53.148 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:11:53.149 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:11:53.151 [main] INFO  com.automationframework.utils.ExtentReportManager - Test Suite Finished: Regression Tests - Chrome
+2026-04-29 22:11:53.446 [main] INFO  com.automationframework.utils.ExtentReportManager - Extent Report saved to: reports/AutomationReport.html
+2026-04-29 22:18:50.871 [main] INFO  com.automationframework.utils.ExtentReportManager - Test Suite Started: Smoke Tests - Chrome
+2026-04-29 22:18:51.375 [main] INFO  com.automationframework.utils.ConfigReader - Configuration file loaded successfully: config.properties
+2026-04-29 22:18:51.376 [main] INFO  com.automationframework.utils.ExtentReportManager - Extent Report initialized
+2026-04-29 22:18:51.475 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:51.476 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Setting up test - Browser: chrome
+2026-04-29 22:18:51.476 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:51.480 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.utils.DriverFactory - Initializing WebDriver for browser: chrome
+2026-04-29 22:18:55.037 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.utils.DriverFactory - WebDriver initialized successfully for browser: chrome
+2026-04-29 22:18:56.023 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-04-29 22:18:56.057 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testSuccessfulLogin
+2026-04-29 22:18:56.094 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testSuccessfulLogin
+2026-04-29 22:18:56.209 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:18:56.213 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Entering username: student
+2026-04-29 22:18:56.803 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Entering password
+2026-04-29 22:18:57.149 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Clicking login button
+2026-04-29 22:18:58.057 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Login successful - URL contains 'logged-in'
+2026-04-29 22:18:58.067 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Getting success page title
+2026-04-29 22:18:58.238 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.tests.LoginTest - TEST PASSED: testSuccessfulLogin
+2026-04-29 22:18:58.248 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.utils.ExtentReportManager - Test PASSED: testSuccessfulLogin
+2026-04-29 22:18:58.254 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:18:58.255 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.utils.DriverFactory - Quitting WebDriver for current thread
+2026-04-29 22:18:58.807 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:58.807 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:18:58.809 [TestNG-test-Smoke Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:58.815 [main] INFO  com.automationframework.utils.ExtentReportManager - Test Suite Finished: Smoke Tests - Chrome
+2026-04-29 22:18:59.537 [main] INFO  com.automationframework.utils.ExtentReportManager - Extent Report saved to: reports/AutomationReport.html
+2026-04-29 22:18:59.591 [main] INFO  com.automationframework.utils.ExtentReportManager - Test Suite Started: Regression Tests - Chrome
+2026-04-29 22:18:59.594 [main] INFO  com.automationframework.utils.ExtentReportManager - Extent Report initialized
+2026-04-29 22:18:59.601 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:59.601 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:59.602 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Setting up test - Browser: chrome
+2026-04-29 22:18:59.602 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Setting up test - Browser: chrome
+2026-04-29 22:18:59.603 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:59.603 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:59.603 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.DriverFactory - Initializing WebDriver for browser: chrome
+2026-04-29 22:18:59.603 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - Initializing WebDriver for browser: chrome
+2026-04-29 22:18:59.610 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:59.612 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - Setting up test - Browser: chrome
+2026-04-29 22:18:59.613 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:18:59.613 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.DriverFactory - Initializing WebDriver for browser: chrome
+2026-04-29 22:19:03.299 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - WebDriver initialized successfully for browser: chrome
+2026-04-29 22:19:03.881 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.DriverFactory - WebDriver initialized successfully for browser: chrome
+2026-04-29 22:19:04.109 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-04-29 22:19:04.130 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testLoginWithInvalidPassword
+2026-04-29 22:19:04.133 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testLoginWithInvalidPassword
+2026-04-29 22:19:04.142 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:19:04.149 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Entering username: student
+2026-04-29 22:19:04.844 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.DriverFactory - WebDriver initialized successfully for browser: chrome
+2026-04-29 22:19:05.410 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-04-29 22:19:05.521 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testLoginWithInvalidUsername
+2026-04-29 22:19:05.563 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testLoginWithInvalidUsername
+2026-04-29 22:19:05.564 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:19:05.580 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - Entering username: invaliduser
+2026-04-29 22:19:05.961 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-04-29 22:19:05.974 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testLoginWithEmptyCredentials
+2026-04-29 22:19:05.979 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testLoginWithEmptyCredentials
+2026-04-29 22:19:05.980 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:19:05.981 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Entering username: 
+2026-04-29 22:19:07.896 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Entering password
+2026-04-29 22:19:08.230 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Entering password
+2026-04-29 22:19:08.771 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - Entering password
+2026-04-29 22:19:09.446 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Clicking login button
+2026-04-29 22:19:09.541 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.pages.LoginPage - Clicking login button
+2026-04-29 22:19:09.822 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - Clicking login button
+2026-04-29 22:19:10.477 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Getting error message text
+2026-04-29 22:19:10.800 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.tests.LoginTest - TEST PASSED: testLoginWithEmptyCredentials
+2026-04-29 22:19:10.802 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.ExtentReportManager - Test PASSED: testLoginWithEmptyCredentials
+2026-04-29 22:19:10.813 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:19:10.813 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.utils.DriverFactory - Quitting WebDriver for current thread
+2026-04-29 22:19:11.169 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.tests.LoginTest - TEST PASSED: testLoginWithInvalidPassword
+2026-04-29 22:19:11.170 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.ExtentReportManager - Test PASSED: testLoginWithInvalidPassword
+2026-04-29 22:19:11.176 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:19:11.176 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - Quitting WebDriver for current thread
+2026-04-29 22:19:11.345 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.pages.LoginPage - Getting error message text
+2026-04-29 22:19:11.595 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.tests.LoginTest - TEST PASSED: testLoginWithInvalidUsername
+2026-04-29 22:19:11.598 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.ExtentReportManager - Test PASSED: testLoginWithInvalidUsername
+2026-04-29 22:19:11.605 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:19:11.606 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.utils.DriverFactory - Quitting WebDriver for current thread
+2026-04-29 22:19:12.372 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:12.372 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:19:12.372 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:12.378 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:12.378 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Setting up test - Browser: chrome
+2026-04-29 22:19:12.378 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:12.379 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - Initializing WebDriver for browser: chrome
+2026-04-29 22:19:12.655 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:12.656 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:19:12.656 [TestNG-test-Regression Tests - Chrome-1] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:12.886 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:12.887 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:19:12.887 [TestNG-test-Regression Tests - Chrome-3] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:14.086 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - WebDriver initialized successfully for browser: chrome
+2026-04-29 22:19:15.753 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Navigated to URL: https://practicetestautomation.com/practice-test-login/
+2026-04-29 22:19:15.757 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.ExtentReportManager - Test Started: testSuccessfulLogin
+2026-04-29 22:19:15.759 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.tests.LoginTest - TEST STARTED: testSuccessfulLogin
+2026-04-29 22:19:15.762 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - LoginPage initialized
+2026-04-29 22:19:15.762 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Entering username: student
+2026-04-29 22:19:16.464 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Entering password
+2026-04-29 22:19:16.830 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Clicking login button
+2026-04-29 22:19:17.591 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Login successful - URL contains 'logged-in'
+2026-04-29 22:19:17.593 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.pages.LoginPage - Getting success page title
+2026-04-29 22:19:17.771 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.tests.LoginTest - TEST PASSED: testSuccessfulLogin
+2026-04-29 22:19:17.772 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.ExtentReportManager - Test PASSED: testSuccessfulLogin
+2026-04-29 22:19:17.778 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Tearing down test - closing browser
+2026-04-29 22:19:17.779 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.utils.DriverFactory - Quitting WebDriver for current thread
+2026-04-29 22:19:18.247 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:18.248 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - Test completed - Browser closed
+2026-04-29 22:19:18.248 [TestNG-test-Regression Tests - Chrome-2] INFO  com.automationframework.base.BaseTest - ========================================
+2026-04-29 22:19:18.249 [main] INFO  com.automationframework.utils.ExtentReportManager - Test Suite Finished: Regression Tests - Chrome
+2026-04-29 22:19:18.418 [main] INFO  com.automationframework.utils.ExtentReportManager - Extent Report saved to: reports/AutomationReport.html

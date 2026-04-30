@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-29T22:18:50 CDT" name="Automation Framework Test Suite" finished-at="2026-04-29T22:19:18 CDT" duration-ms="27425">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.testSuccessfulLogin()[pri:0, instance:com.automationframework.tests.LoginTest@55b5f5d2]" name="testSuccessfulLogin" class="com.automationframework.tests.LoginTest"/>
+        <method signature="LoginTest.testLoginWithEmptyCredentials()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" name="testLoginWithEmptyCredentials" class="com.automationframework.tests.LoginTest"/>
+        <method signature="LoginTest.testLoginWithInvalidPassword()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" name="testLoginWithInvalidPassword" class="com.automationframework.tests.LoginTest"/>
+        <method signature="LoginTest.testLoginWithInvalidUsername()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" name="testLoginWithInvalidUsername" class="com.automationframework.tests.LoginTest"/>
+        <method signature="LoginTest.testSuccessfulLogin()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" name="testSuccessfulLogin" class="com.automationframework.tests.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.testSuccessfulLogin()[pri:0, instance:com.automationframework.tests.LoginTest@55b5f5d2]" name="testSuccessfulLogin" class="com.automationframework.tests.LoginTest"/>
+        <method signature="LoginTest.testSuccessfulLogin()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" name="testSuccessfulLogin" class="com.automationframework.tests.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-04-29T22:18:50 CDT" name="Smoke Tests - Chrome" finished-at="2026-04-29T22:18:58 CDT" duration-ms="7991">
+      <class name="com.automationframework.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automationframework.tests.LoginTest@55b5f5d2]" started-at="2026-04-29T22:18:51 CDT" name="setUp" finished-at="2026-04-29T22:18:56 CDT" duration-ms="4570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.automationframework.tests.LoginTest@55b5f5d2]" started-at="2026-04-29T22:18:56 CDT" name="testSuccessfulLogin" description="Verify successful login with valid credentials" finished-at="2026-04-29T22:18:58 CDT" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationframework.tests.LoginTest@55b5f5d2]" started-at="2026-04-29T22:18:58 CDT" name="tearDown" finished-at="2026-04-29T22:18:58 CDT" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationframework.tests.LoginTest -->
+    </test> <!-- Smoke Tests - Chrome -->
+    <test started-at="2026-04-29T22:18:59 CDT" name="Regression Tests - Chrome" finished-at="2026-04-29T22:19:18 CDT" duration-ms="18660">
+      <class name="com.automationframework.tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:18:59 CDT" name="setUp" finished-at="2026-04-29T22:19:05 CDT" duration-ms="6362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:18:59 CDT" name="setUp" finished-at="2026-04-29T22:19:04 CDT" duration-ms="4509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:18:59 CDT" name="setUp" finished-at="2026-04-29T22:19:05 CDT" duration-ms="5819" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithInvalidPassword()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:19:04 CDT" name="testLoginWithInvalidPassword" description="Verify login fails with invalid password" finished-at="2026-04-29T22:19:11 CDT" duration-ms="7059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method signature="testLoginWithInvalidUsername()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:19:05 CDT" name="testLoginWithInvalidUsername" description="Verify login fails with invalid username" finished-at="2026-04-29T22:19:11 CDT" duration-ms="6170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidUsername -->
+        <test-method signature="testLoginWithEmptyCredentials()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:19:05 CDT" name="testLoginWithEmptyCredentials" description="Verify login fails with empty credentials" finished-at="2026-04-29T22:19:10 CDT" duration-ms="4836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:19:10 CDT" name="tearDown" finished-at="2026-04-29T22:19:12 CDT" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:19:11 CDT" name="tearDown" finished-at="2026-04-29T22:19:12 CDT" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:19:11 CDT" name="tearDown" finished-at="2026-04-29T22:19:12 CDT" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:19:12 CDT" name="setUp" finished-at="2026-04-29T22:19:15 CDT" duration-ms="3376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:19:15 CDT" name="testSuccessfulLogin" description="Verify successful login with valid credentials" finished-at="2026-04-29T22:19:17 CDT" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automationframework.tests.LoginTest@7bc10d84]" started-at="2026-04-29T22:19:17 CDT" name="tearDown" finished-at="2026-04-29T22:19:18 CDT" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automationframework.tests.LoginTest -->
+    </test> <!-- Regression Tests - Chrome -->
+  </suite> <!-- Automation Framework Test Suite -->
+</testng-results>

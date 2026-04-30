@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+
+    <!--
+        Log4j2 Configuration
+        
+        WHY LOGGING MATTERS:
+        When a test fails at 2am in CI/CD, you need logs to debug it.
+        System.out.println disappears. Log files stay forever.
+        
+        REAL COMPANY PRACTICE:
+        Every enterprise framework uses Log4j2 or SLF4J.
+        Logs are stored, indexed, and searched in tools like Splunk or ELK Stack.
+        
+        TWO APPENDERS:
+        1. Console  → Shows logs in Eclipse console while running
+        2. File     → Saves logs to logs/automation.log for later analysis
+    -->
+
+    <Appenders>
+
+        <!-- ── CONSOLE APPENDER ─────────────────────────────────── -->
+        <!-- Prints logs to Eclipse console in color-coded format    -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <!-- ── FILE APPENDER ────────────────────────────────────── -->
+        <!-- Saves logs to file — new file created each day         -->
+        <RollingFile name="FileAppender"
+                     fileName="logs/automation.log"
+                     filePattern="logs/automation-%d{yyyy-MM-dd}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <!-- Roll over daily -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <!-- Roll over when file hits 10MB -->
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <!-- Keep last 30 days of logs -->
+            <DefaultRolloverStrategy max="30"/>
+        </RollingFile>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- ── FRAMEWORK LOGGER ─────────────────────────────────── -->
+        <!-- Captures all logs from our framework packages           -->
+        <Logger name="com.automationframework" level="INFO" additivity="false">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+        </Logger>
+
+        <!-- ── ROOT LOGGER ──────────────────────────────────────── -->
+        <!-- Catches everything else (Selenium, WebDriverManager)   -->
+        <Root level="WARN">
+            <AppenderRef ref="ConsoleAppender"/>
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>
